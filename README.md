@@ -1,4 +1,4 @@
-****Black-Scholes Option Pricing Model****
+**Black-Scholes Option Pricing Model**
 
 An interactive Streamlit app for pricing European call and put options using the Black-Scholes formula, with real-time payoff visualization.
 
