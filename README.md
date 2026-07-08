@@ -1,8 +1,8 @@
-**Black-Scholes Option Pricing Model**
+# Black-Scholes Option Pricing Model
 
 An interactive Streamlit app for pricing European call and put options using the Black-Scholes formula, with real-time payoff visualization.
 
-Features
+## Features
 
 
 Calculates European call and put option prices using the Black-Scholes model
@@ -11,7 +11,7 @@ Live payoff diagram comparing call and put payoffs at expiration
 Built with Streamlit for a clean, responsive UI
 
 
-Formula
+## Formula
 
 The Black-Scholes formula for a call option:
 
@@ -35,7 +35,7 @@ r — risk-free interest rate
 N — cumulative distribution function of the standard normal distribution
 
 
-Installation
+## Installation
 
 Clone the repository and install the dependencies:
 
@@ -43,7 +43,7 @@ bashgit clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 pip install streamlit numpy matplotlib scipy
 
-Usage
+## Usage
 
 Run the app with Streamlit:
 
@@ -51,11 +51,11 @@ bashstreamlit run app.py
 
 Then use the sidebar to adjust the asset price, strike price, time to maturity, risk-free rate, and volatility. The call and put prices, along with a payoff chart, update automatically.
 
-Assumptions
+## Assumptions
 
 This model assumes European-style options (exercisable only at expiration) and no dividends paid on the underlying asset.
 
-Tech Stack
+## Tech Stack
 
 
 Streamlit — web app framework
